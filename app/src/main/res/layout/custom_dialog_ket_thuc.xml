@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lượt chơi đã kết thúc" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xin Chúc mừng bạn đã đạt được" />
+
+    <TextView
+        android:id="@+id/tvDiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.790 điểm" />
+
+    <Button
+        android:id="@+id/btnThemLuoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="Thêm 1 lược chơi 300" />
+
+    <Button
+        android:id="@+id/btnKetThuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="Kết thúc" />
+</LinearLayout>

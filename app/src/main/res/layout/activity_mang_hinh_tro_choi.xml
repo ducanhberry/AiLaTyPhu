@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:background="#03A9F4"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvTen"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nvKhuong"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="end"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivMang"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/diamon"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="end"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvTinDung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2000"
+                />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/diamon"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDiem"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm : 0"
+        android:textColor="#E613AB"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Câu Hỏi"
+        />
+    <TextView
+        android:id="@+id/tvCauHoiSo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00BCD4"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn lĩnh vực"
+        />
+
+    <Button
+        android:id="@+id/btnKHKT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="KHKT"
+        android:text="Khoa học kỹ thuật" />
+
+    <Button
+        android:id="@+id/btnVH_XH_NT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="VHXHNT"
+        android:text="Văn hóa - Xã hội - Nghệ thuật" />
+
+    <Button
+        android:id="@+id/btnLS_DL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="LSDL"
+        android:text="Lịch sử - Địa ly" />
+
+    <Button
+        android:id="@+id/btnTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="TT"
+        android:text="Thể Thao" />
+
+</LinearLayout>
