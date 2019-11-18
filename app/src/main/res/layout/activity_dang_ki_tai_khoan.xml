@@ -17,27 +17,27 @@
         android:id="@+id/edtTenDangNhap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/ten_dang_nhap"
+
         />
 
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/email"
+
         />
     <EditText
         android:id="@+id/edtMatKhau"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/mat_khau"
+
         />
 
     <EditText
         android:id="@+id/edtXacNhanMatKhau"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/xac_nhan_mat_khau"
+
         />
 
     <Button
@@ -46,5 +46,5 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#2196F3"
         android:onClick="DangKy"
-        android:text="@string/dang_ky" />
+        android:text="Đăng Ký" />
 </LinearLayout>

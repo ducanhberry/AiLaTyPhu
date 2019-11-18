@@ -23,62 +23,61 @@
     <EditText
         android:textColor="#8B333333"
         android:paddingLeft="5dp"
-        android:background="@drawable/custom_edittext"
+
         android:id="@+id/edtTenDangNhap"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="@string/ten_dang_nhap"
-        android:text="nvDungDaiCa" />
+
+        android:text="Tên đăng nhập" />
 
     <EditText
         android:textColor="#8B333333"
         android:paddingLeft="5dp"
         android:layout_marginTop="10dp"
-        android:background="@drawable/custom_edittext"
+
         android:id="@+id/edtMatKhau"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="@string/mat_khau"
-        android:text="123" />
+
+        android:text="Mật Khẩu" />
 
     <Button
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:background="@drawable/custom_button"
-        android:layout_weight="1"
-        android:onClick="XuLiDangNhap"
         android:id="@+id/btnDangNhap"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="@string/dang_nhap"
-        android:gravity="center"
-        />
-    <Button
         android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:background="@drawable/custom_button"
         android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="XuLiDangNhap"
+
+        android:textColor="#fff" />
+
+    <Button
         android:id="@+id/btnQuenMatKhau"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="@string/quen_mat_khau"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_purple"
         android:gravity="center"
         android:onClick="XuLiQuenMatKhau"
-        />
+
+        android:textColor="#fff" />
+
     <Button
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:background="@drawable/custom_button"
-        android:layout_weight="1"
         android:id="@+id/btnDangKi"
-        android:onClick="XuLiDangKi"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="@string/dang_ky"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_light"
         android:gravity="center"
-        />
+        android:onClick="XuLiDangKi"
+
+        android:textColor="#fff" />
 
     <LinearLayout
         android:layout_weight="2"
@@ -97,16 +96,16 @@
             >
             <ImageView
                 android:id="@+id/ivIconFB"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/fb"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo_fb"
                 />
             <TextView
                 android:id="@+id/tvDangNhapVoiFB"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/dang_nhap_voi_facebook"
+                android:text="Đăng nhập với Facebook"
                 />
 
         </LinearLayout>
@@ -118,16 +117,16 @@
             >
             <ImageView
                 android:id="@+id/ivIcoGG"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/google"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo_gg"
                 />
             <TextView
                 android:id="@+id/tvDangNHapVoiGG"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/dang_nhap_voi_google"
+                android:text="Đăng nhập với Google"
                 />
         </LinearLayout>
 

@@ -6,11 +6,11 @@
     android:paddingRight="16dp"
     android:layout_height="match_parent">
     <ImageView
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="18dp"
         android:id="@+id/ivLogo"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/user"
+        android:src="@drawable/logo_user"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,8 +35,12 @@
                 android:id="@+id/ivDiamon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/diamon"
+
                 />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/logo_diamon" />
             <TextView
                 android:id="@+id/tvCredit"
                 android:layout_width="wrap_content"

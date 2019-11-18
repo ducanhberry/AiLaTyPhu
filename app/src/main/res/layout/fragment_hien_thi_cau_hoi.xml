@@ -37,25 +37,25 @@
                         android:id="@+id/ivMang"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_action_heart_full"
+
                         />
                     <ImageView
                         android:id="@+id/ivMang1"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_action_heart_full"
+
                         />
                     <ImageView
                         android:id="@+id/ivMang2"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_action_heart_full"
+
                         />
                     <ImageView
                         android:id="@+id/ivMang3"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_action_heart_low"
+
                         />
                 </LinearLayout>
 
@@ -78,7 +78,7 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/ic_action_diamon"
+                    android:src="@drawable/logo_diamon"
                     />
             </LinearLayout>
 
@@ -175,7 +175,7 @@
                     android:id="@+id/ivTimer"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:src="@drawable/ic_action_timeline"
+
                     />
                 <TextView
                     android:id="@+id/tvtimer"
@@ -195,29 +195,30 @@
 
                 <ImageButton
                     android:id="@+id/ivbtnDoiCauHoi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_restart2" />
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/logo_restar" />
                 <ImageButton
                     android:id="@+id/ivbtnNamMoi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_fifty"/>
+                    />
                 <ImageButton
                     android:id="@+id/ivbtnTroGiupKhangGia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_people"/>
+                    />
                 <ImageButton
                     android:id="@+id/ivbtnGioNguoiThan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_phone"/>
+                   />
                 <ImageButton
                     android:id="@+id/ivbtnMuaCredit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_diamon"/>
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+
+                    android:src="@drawable/logo_diamon"/>
             </LinearLayout>
         </LinearLayout>
 

@@ -31,7 +31,7 @@
                     android:id="@+id/ivMang"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/diamon"
+                    android:src="@drawable/logo_mang"
                     />
             </LinearLayout>
 
@@ -51,7 +51,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/diamon"
+                android:src="@drawable/logo_diamon"
                 />
         </LinearLayout>
 
