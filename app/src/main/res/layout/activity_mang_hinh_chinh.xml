@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="nvDungDaiCa"/>
+            android:text="Xin chào,"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
     <Button
         android:id="@+id/btnQuanLiTaiKhoan"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:backgroundTint="#8BC34A"
         android:onClick="XuLiQuanLiTaiKhoan"
         android:text="Quản lí tài khoản" />
@@ -60,7 +60,7 @@
     <Button
         android:id="@+id/btnTroChoiMoi"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:backgroundTint="#03A9F4"
         android:onClick="XuLiTroChoiMoi"
         android:text="Trò chơi mới" />
@@ -68,7 +68,7 @@
     <Button
         android:id="@+id/btnLichSuChoi"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:backgroundTint="#673AB7"
         android:onClick="XuLiLichSuChoi"
         android:text="Lịch sử chơi" />
@@ -76,7 +76,7 @@
     <Button
         android:id="@+id/btnDangKi"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:backgroundTint="#E91E63"
         android:onClick="XuLiBangXepHang"
         android:text="Bảng xếp hạng" />
@@ -84,7 +84,7 @@
     <Button
         android:id="@+id/btnMuaCredit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:backgroundTint="#FF9800"
         android:onClick="XuLiMuaCreadit"
         android:text="Mua credit" />

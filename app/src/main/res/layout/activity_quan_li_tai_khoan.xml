@@ -56,5 +56,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#2196F3"
         android:onClick="XuLiCapNhap"
+
         android:text="Cập Nhật" />
 </LinearLayout>

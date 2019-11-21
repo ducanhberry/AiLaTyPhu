@@ -28,20 +28,19 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-
-        android:text="Tên đăng nhập" />
+        android:hint="Tên đăng nhập" />
 
     <EditText
-        android:textColor="#8B333333"
-        android:paddingLeft="5dp"
-        android:layout_marginTop="10dp"
-
         android:id="@+id/edtMatKhau"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
 
-        android:text="Mật Khẩu" />
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="#8B333333" />
 
     <Button
         android:id="@+id/btnDangNhap"
@@ -52,7 +51,7 @@
         android:background="@color/colorPrimary"
         android:gravity="center"
         android:onClick="XuLiDangNhap"
-
+        android:text="Đăng nhập"
         android:textColor="#fff" />
 
     <Button
@@ -64,7 +63,7 @@
         android:background="@android:color/holo_purple"
         android:gravity="center"
         android:onClick="XuLiQuenMatKhau"
-
+        android:text="Quên mật khẩu"
         android:textColor="#fff" />
 
     <Button
@@ -76,8 +75,9 @@
         android:background="@android:color/holo_red_light"
         android:gravity="center"
         android:onClick="XuLiDangKi"
-
+        android:text="Đằng ký"
         android:textColor="#fff" />
+
 
     <LinearLayout
         android:layout_weight="2"
@@ -89,8 +89,9 @@
         android:paddingLeft="30dp"
         >
         <LinearLayout
+            android:gravity="center"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="horizontal"
             >
@@ -98,20 +99,23 @@
                 android:id="@+id/ivIconFB"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/logo_fb"
+                android:src="@drawable/logo_fb2"
+
                 />
             <TextView
+                android:gravity="center"
                 android:id="@+id/tvDangNhapVoiFB"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="Đăng nhập với Facebook"
                 />
 
         </LinearLayout>
         <LinearLayout
+            android:gravity="center"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="horizontal"
             >
@@ -119,13 +123,15 @@
                 android:id="@+id/ivIcoGG"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/logo_gg"
+                android:src="@drawable/logo_gg2"
+
                 />
             <TextView
+                android:gravity="center"
                 android:id="@+id/tvDangNHapVoiGG"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="Đăng nhập với Google"
                 />
         </LinearLayout>

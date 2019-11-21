@@ -17,30 +17,31 @@
         android:id="@+id/edtTenDangNhap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:hint="Tên đăng nhập"
         />
 
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:hint="Email"
         />
     <EditText
         android:id="@+id/edtMatKhau"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:hint="Mật khẩu"
         />
 
     <EditText
         android:id="@+id/edtXacNhanMatKhau"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:hint="Xác nhận mật khẩu"
         />
 
     <Button
+
         android:id="@+id/btnDangKi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
