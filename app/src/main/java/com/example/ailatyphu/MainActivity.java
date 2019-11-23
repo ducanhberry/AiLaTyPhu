@@ -48,7 +48,9 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this,act_dang_nhap.class);
                     startActivity(intent);
                 } else {
-                    Toast.makeText(MainActivity.this, "Bạn vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "Bạn vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+                    eduser.setError("Vui lòng nhập tên đăng nhập");
+                    edmatkhau.setError("Vui lòng nhập mật khẩu");
                 }
             }
         });

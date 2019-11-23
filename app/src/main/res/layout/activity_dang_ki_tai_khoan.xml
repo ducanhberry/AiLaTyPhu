@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Mật khẩu"
+        android:inputType="textPassword"
         />
 
     <EditText
@@ -38,6 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Xác nhận mật khẩu"
+        android:inputType="textPassword"
+
         />
 
     <Button
@@ -46,6 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#2196F3"
-        android:onClick="DangKy"
+        android:onClick="XuLyDangKy"
         android:text="Đăng Ký" />
 </LinearLayout>
